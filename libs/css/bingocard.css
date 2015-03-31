@@ -1,0 +1,18 @@
+#bingo {text-align: center;}
+.centerbingo {margin:0 auto;}
+#bingo table.card, table.win { text-align:center;border:none;margin-left:auto; margin-right:auto;max-width:650px; max-height:650px;margin-bottom:10px; }
+#bingo td { border:none;padding:2px;}
+#bingo td:hover{ background-color:#eda424; opacity:0.6;}
+#bingo td.clicked { background-color:#eda424;}
+#bingo td.clicked:hover { background-color:#eda424;}
+#bingo td.win { background-color:#024683;}
+#bingo td.freecell{background-color:#eda424;}
+#bingocardslist, #bingocards {display:none;}
+#bingo .refresh {background-color:#ff512c; color:#fff; border:1px solid #ff512c; padding:10px 16px; margin:10px;}
+
+#winShare {display:none;}
+#winShare {background:#000; padding:2%; color:#fff; max-width:650px; margin:0 auto; position:relative; z-index:9999; border:5px solid #000; margin-bottom:20px; border-radius:10px;}
+#winShare img {margin:0 auto;}
+ 
+#winShare .bingosocial {width: 35px;margin-right: 5px;border: 0;box-shadow: 0;display: inline;color:#fff !important;}
+#winShare .bingosocial:hover {color:#fff !important;}
