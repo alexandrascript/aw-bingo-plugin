@@ -1,7 +1,7 @@
 <?php 
 /*
     Plugin Name: Post Bingo Card
-    Plugin URI: https://github.com/designinglightning/bingo-plugin
+    Plugin URI: https://github.com/designinglightning/aw-bingo-plugin
     Description: Create a bingo card post for Program Pages
     Author: Alexandra White
     Version: 1.0

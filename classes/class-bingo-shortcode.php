@@ -10,7 +10,7 @@ function bingo_card_table($atts) {
   $post_id_card1 = isset($postbingocards['post_id_card1']) ? $postbingocards['post_id_card1'] : '';
   $post_id_card2 = isset($postbingocards['post_id_card2']) ? $postbingocards['post_id_card2'] : '';
   $post_id_card3 = isset($postbingocards['post_id_card3']) ? $postbingocards['post_id_card3'] : '';
-  $plugins_url = plugins_url().'/bingo-plugin/';
+  $plugins_url = plugins_url().'/aw-bingo-plugin/';
   //winner images
   if(is_single($post_id_card1)) {
     $winner1 = isset($postbingocards['winner1_card1']) ? $postbingocards['winner1_card1'] : plugins_url( 'libs/img/winner-default.jpg', __FILE__ );
@@ -124,7 +124,7 @@ function bingo_gallery_shortcode( $atts, $content = null ) {
   $gallery = '<div id="bingocardslist">';
   while($iteration < $imageCount){
       $image = $images[$iteration];
-      $plugins_url = plugins_url().'/bingo-plugin/';
+      $plugins_url = plugins_url().'/aw-bingo-plugin/';
       $postbingocards = get_option('aw_bingo_settings', array() );
       $post_id_card1 = isset($postbingocards['post_id_card1']) ? $postbingocards['post_id_card1'] : '';
       $post_id_card2 = isset($postbingocards['post_id_card2']) ? $postbingocards['post_id_card2'] : '';
