@@ -1,12 +1,12 @@
 <?php 
 /*
     Plugin Name: Post Bingo Card
-    Plugin URI: https://github.com/designinglightning/aw-bingo-plugin
-    Description: Create a bingo card post for Program Pages
+    Plugin URI: https://github.com/heyawhite/aw-bingo-plugin
+    Description: Create a bingo card post for a WP post
     Author: Alexandra White
-    Version: 1.0
-    Author URI: http://www.designinglightning.com
-    Requires at least: 4.0
+    Version: 1.1
+    Author URI: https://heyawhite.com
+    Requires at least: 4.8
 
     @package WordPress
  	@author Alexandra White
