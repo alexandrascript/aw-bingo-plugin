@@ -55,6 +55,10 @@ function click(){
     if(cnt==5) wins.push(g);
     if(cnt==5) document.getElementById('winShare').style.display = 'block';
     if(cnt==4) document.getElementById('winShare').style.display = 'none';
+    if(cnt==5){
+       var elmnt = document.getElementById("winShare");
+       elmnt.scrollIntoView();
+    }
   }
 
   // highlight all winning cell groups
