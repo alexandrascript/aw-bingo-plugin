@@ -11,7 +11,7 @@ The Bingo Card Plugin was created for WordPress 4.0 and above. The plugin is pow
 
 1. Upload the Bingo Plugin on your WordPress Installation.
 2. Activate the plugin.
-3. Create a post and add the two shortcodes with a break in between them: [bingocard] [bingo_gallery]
+3. Create a post and add the two shortcodes with a break in between them: `[bingocard]` `[bingo_gallery]`
 4. Upload at least 24 images for Bingo using the "Add Media" button. IMPORTANT: DO NOT include the featured image, free space image, or winner images. Do not upload any images directly to the post that you do not want in rotation on the bingo card.
 5. Upload the remaining images (free space, winner cards, featured post image, etc) directly to the Media Library and NOT attached to the post.
 6. Go to Settings > Bingo Card Settings
@@ -22,3 +22,6 @@ The Bingo Card Plugin was created for WordPress 4.0 and above. The plugin is pow
 11. Save changes.
 
 Repeat these steps for up to three posts.
+
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A244AFZ)
