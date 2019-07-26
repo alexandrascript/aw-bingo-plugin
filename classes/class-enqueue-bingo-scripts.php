@@ -22,7 +22,7 @@ class Enqueue_Bingo_Scripts_Styles {
     wp_enqueue_script('bingo', plugins_url('/libs/js/bingo.js', dirname(__FILE__) ), array(), '', true);
   }
 
-  public function wnet_get_wp_version() {
+  public function aw_get_wp_version() {
      global $wp_version;
      return $wp_version;
   }
