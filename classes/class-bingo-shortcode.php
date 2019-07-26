@@ -11,6 +11,7 @@ function bingo_card_table($atts) {
   $post_id_card2 = isset($postbingocards['post_id_card2']) ? $postbingocards['post_id_card2'] : '';
   $post_id_card3 = isset($postbingocards['post_id_card3']) ? $postbingocards['post_id_card3'] : '';
   $plugins_url = plugins_url().'/aw-bingo-plugin/';
+  
   //winner images
   if(is_single($post_id_card1)) {
     $winner1 = isset($postbingocards['winner1_card1']) ? $postbingocards['winner1_card1'] : plugins_url( 'libs/img/winner-default.jpg', __FILE__ );
