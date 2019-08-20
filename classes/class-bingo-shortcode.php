@@ -145,11 +145,11 @@ function bingo_gallery_shortcode( $atts, $content = null ) {
         $gallery .= "<img src='".$freespace."' class='attachment-1 freespace' width='150' height='150' alt='Free Space' />";
         $gallery .= "</p>";
         $gallery .= "<p>";
-        $gallery .= wp_get_attachment_image($image->ID, $image_size);
+        $gallery .= wp_get_attachment_image($image->ID, $image_size, "", array( "class" => "bingo-img attachment" ));
         $gallery .= "</p>";
       } else {
         $gallery .= "<p>";
-        $gallery .= wp_get_attachment_image($image->ID, $image_size);
+        $gallery .= wp_get_attachment_image($image->ID, $image_size, "", array( "class" => "bingo-img attachment" ));
         $gallery .= "</p>";
       }
 
