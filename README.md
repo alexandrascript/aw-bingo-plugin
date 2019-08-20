@@ -15,8 +15,8 @@ The Bingo Card Plugin was created for WordPress 4.8 and above. The plugin is pow
    + If using the Gutenberg editor, you must use the **Shortcode** block to insert the shortcodes. Please include two separate blocks, so each shortcode has its own.
    + If using the Classic editor, add the two shortcodes with a break in between them.
 1. Upload at least 24 images for Bingo directly to your post.
-   + In WP < 5.0, click the **Add Media** button above the WYSIWYG.
-   + In WP >= 5.0, click into a text block in the empty post. Click the image icon followed by the **Media Library** button.
+   + If using the Gutenberg editor, add an image block and click the **Media Library** button.
+   + If using the Classic editor, click the **Add Media** button above the WYSIWYG.
    + DO NOT include the featured image, free space image, or winner images. DO NOT upload any images directly to the post that you do not want in rotation on the bingo card.
 1. Upload the remaining images (free space, winner cards, featured post image, etc) directly to the Media Library. DO NOT attach those images to the post.
 1. Go to Settings > Bingo Card Settings
