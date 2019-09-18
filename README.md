@@ -2,6 +2,8 @@
 
 The Bingo Card Plugin was created for WordPress 4.8 and above. The plugin is powered by vanilla JavaScript and CSS, no additional libraries required.
 
+**Warning**: installing WordPress's <a href="https://jetpack.com">Jetpack plugin</a> has been known to cause errors. This plugin may have conflicts and not work as expected.
+
 ### What is this repository for?
 
 * This plugin is for implementing bingo cards on WordPress posts and custom post types.
