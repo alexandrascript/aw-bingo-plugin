@@ -39,7 +39,7 @@ There are now demo images available in the folder `/demo`. Upload the images in 
    + If using the Gutenberg editor, add an image block and click the **Media Library** button.
    + If using the Classic editor, click the **Add Media** button above the WYSIWYG.
    + DO NOT upload the featured image, free space image, or winner images directly to the post. Any photo uploaded to the post will be in rotation on the bingo card.
-   + DO NOT include the images in the body of the post. The images should be attached to the post without being seen.
+   + DO NOT include the images in the body of the post. The images should be attached to the post without in the body content.
    ![](bingo-post.png)
 1. Upload the remaining images (free space, winner cards, featured post image, etc) directly to the Media Library.
 1. Go to Settings > Bingo Card Settings
