@@ -35,7 +35,6 @@ To use the demo, upload the images in `/demo/bingo-cards` directly to your WordP
 1. Create a post and add the two shortcodes `[bingocard]` `[bingo_gallery]`
    + If using the Gutenberg editor, you must use a **Shortcode** block for each shortcode.
    + If using the Classic editor, add the two shortcodes with a line break in between them.
-   + Make note of the post ID, as it will be used in the **Bingo Card Settings** page.
 1. Upload at least 24 bingo card images for Bingo directly to your post. Images should be square.
    + If using the Gutenberg editor, add an image block and click the **Media Library** button.
    + If using the Classic editor, click the **Add Media** button above the WYSIWYG.
@@ -44,9 +43,9 @@ To use the demo, upload the images in `/demo/bingo-cards` directly to your WordP
    ![](bingo-post.png)
 1. Upload the remaining images (free space, winner cards, featured post image, etc) directly to the **Media** library.
 1. Go to **Settings** > **Bingo Card Settings**.
-1. Add the post ID for your bingo card to **Bingo Card 1 Post ID**.
-1. Add the URL for the **Bingo Card Header**.
-1. Add the URL for the **Free Space for Card 1**.
+1. Select the name of the post for your bingo card to **Bingo Card 1 Post Name**.
+1. Add the URL for the **Bingo Card 1 Header Image**.
+1. Add the URL for the **Bingo Card 1 Free Space**.
 1. Add up to three winner card image URLs to be used for social media sharing.
 1. Save the settings.
 
