@@ -58,8 +58,8 @@ class AW_Bingo_Settings_Page {
 
  }
  
-  public function aw_bingo_call() { echo '<p>Please identify the post IDs where you will be using the bingo card plugin.</p>'; }
-  public function howto() { echo '<p>To use the plugin, upload 25 images for the cards directly to a post (must be directly in a post instead of just through the media uploader). Insert two shortcodes into your post body content:<br /><code>[bingocard]</code><br /><code>[bingo_gallery]</code></p>'; }
+  public function aw_bingo_call() { echo '<p>Identify the posts where you will be using the bingo card plugin.</p>'; }
+  public function howto() { echo '<p>To use the plugin, upload 24+ images for a bingo card directly to a post. Do not insert the images into the post body. Insert two shortcodes into your post body content:<br /><code>[bingocard]</code><br /><code>[bingo_gallery]</code></p><p>For more instructions, view the plugin on <a href="https://github.com/heyawhite/aw-bingo-plugin">GitHub</a></p>'; }
 
   public function settings_field( $args ) {
     // This is the default processor that will handle standard text input
@@ -99,8 +99,11 @@ class AW_Bingo_Settings_Page {
 public function aw_bingo_settings_page() {
   if (!current_user_can('manage_options')) { wp_die( __('You do not have sufficient permissions to access this page. Please contact your administrator.') ); }
 ?>
-
-  <div class="wrap">
+<style type="text/css">
+	.bingosettings .form-table th { padding:15px 10px 15px 0; width:150px;}
+	.bingosettings .form-table td {padding:10px;}
+</style>
+  <div class="wrap bingosettings">
     <form action="options.php" method="POST">
       <?php
 	  	settings_fields( 'bingo_settings_group' );
