@@ -38,7 +38,7 @@ class AW_Bingo_Settings_Page {
     add_settings_field( 'freespace_card1', 'Bingo Card 1 Free Space', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'freespace_card1', 'class' => 'large-text', 'label' => 'Enter the image url for the free space') );
 	add_settings_field( 'winner1_card1', 'Winner image for Card 1', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'winner1_card1', 'class' => 'large-text', 'label' => 'Enter the image url for your winner card') );
     add_settings_field( 'winner2_card1', 'Extra Winner image for Card 1', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'winner2_card1', 'class' => 'large-text', 'label' => 'Enter the image url for your winner card') );
-    add_settings_field( 'winner3_card1', 'Extra Winner image for Card 1', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'winner3_card1', 'class' => 'large-text', 'label' => 'Enter the image url for your winner card') );
+    add_settings_field( 'winner3_card1', 'Extra Winner image for Card 1', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'winner3_card1', 'class' => 'large-text lastfield', 'label' => 'Enter the image url for your winner card') );
 
 	//Card 2
     add_settings_field( 'post_id_card2', 'Bingo Card 2 Post Name', array( $this, 'posts_dropdown'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'post_id_card2', 'class' => 'select', 'label' => 'Enter the post ID that uses a bingo card') );
@@ -46,7 +46,7 @@ class AW_Bingo_Settings_Page {
     add_settings_field( 'freespace_card2', 'Bingo Card 2 Free Space', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'freespace_card2', 'class' => 'large-text', 'label' => 'Enter the image url for the free space') );
     add_settings_field( 'winner1_card2', 'Winner image for Card 2', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'winner1_card2', 'class' => 'large-text', 'label' => 'Enter the image url for your winner card') );
     add_settings_field( 'winner2_card2', 'Extra Winner image for Card 2', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'winner2_card2', 'class' => 'large-text', 'label' => 'Enter the image url for your winner card') );
-    add_settings_field( 'winner3_card2', 'Extra Winner image for Card 2', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'winner3_card2', 'class' => 'large-text', 'label' => 'Enter the image url for your winner card') );
+    add_settings_field( 'winner3_card2', 'Extra Winner image for Card 2', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'winner3_card2', 'class' => 'large-text lastfield', 'label' => 'Enter the image url for your winner card') );
 
 	// Card 3
     add_settings_field( 'post_id_card3', 'Bingo Card 3 Post Name', array( $this, 'posts_dropdown'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'post_id_card3', 'class' => 'select', 'label' => 'Enter the post ID that uses a bingo card') );
@@ -54,7 +54,7 @@ class AW_Bingo_Settings_Page {
     add_settings_field( 'freespace_card3', 'Bingo Card 3 Free Space', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'freespace_card3', 'class' => 'large-text', 'label' => 'Enter the image url for the free space') );
     add_settings_field( 'winner1_card3', 'Winner image for Card 3', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'winner1_card3', 'class' => 'large-text', 'label' => 'Enter the image url for your winner card') );
     add_settings_field( 'winner2_card3', 'Extra Winner image for Card 3', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'winner2_card3', 'class' => 'large-text', 'label' => 'Enter the image url for your winner card') );
-    add_settings_field( 'winner3_card3', 'Extra Winner image for Card 3', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'winner3_card3', 'class' => 'large-text', 'label' => 'Enter the image url for your winner card') );
+    add_settings_field( 'winner3_card3', 'Extra Winner image for Card 3', array( $this, 'settings_field'), 'aw_bingo_settings', 'bingosetup', array('setting' => 'aw_bingo_settings', 'field' => 'winner3_card3', 'class' => 'large-text lastfield', 'label' => 'Enter the image url for your winner card') );
 
  }
  
@@ -102,6 +102,7 @@ public function aw_bingo_settings_page() {
 <style type="text/css">
 	.bingosettings .form-table th { padding:15px 10px 15px 0; width:150px;}
 	.bingosettings .form-table td {padding:10px;}
+	.bingosettings .lastfield td {padding:10px 10px 4em 10px;}
 </style>
   <div class="wrap bingosettings">
     <form action="options.php" method="POST">
