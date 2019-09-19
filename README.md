@@ -44,7 +44,7 @@ To use the demo, upload the images in `/demo/bingo-cards` directly to your WordP
    ![](bingo-post.png)
 1. Upload the remaining images (free space, winner cards, featured post image, etc) directly to the **Media** library.
 1. Go to **Settings** > **Bingo Card Settings**.
-1. Add the post ID for your bingo card to "Bingo Card 1 Post ID".
+1. Add the post ID for your bingo card to **Bingo Card 1 Post ID**.
 1. Add the URL for the **Bingo Card Header**.
 1. Add the URL for the **Free Space for Card 1**.
 1. Add up to three winner card image URLs to be used for social media sharing.
