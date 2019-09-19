@@ -6,7 +6,9 @@
 
 The Bingo Card Plugin is supported on WordPress 4.8 and above. The plugin is powered by vanilla JavaScript and CSS, no additional libraries required.
 
-**Warning**: installing WordPress's <a href="https://jetpack.com">Jetpack plugin</a> has been known to cause errors. This plugin may have conflicts and not work as expected.
+**Warning**: installing WordPress's <a href="https://jetpack.com">Jetpack plugin</a> has been known to cause errors. This plugin may have conflicts and not work as expected. 
+
+**DISCLAIMER**: I have updated this code as recently as September 2019, but it may not be perfect. If there are problems or pitfalls, please do report them in a GitHub issue. However, I am not responsible for any problems this causes as it relates to your WordPress installation or server.
 
 ### About the author
 
@@ -21,8 +23,8 @@ Alexandra White is an occasional WordPress developer, who built this plugin whil
 
 For each Bingo board you should have the following images:
 
-* 24 or more "bingo cards" uploaded directly to your post. These should be square images, either JPG or PNG. I recommend size 150px x 150px.
-* 1 free space image. This should be the same size as the bingo cards.
+* 24 or more bingo tiles uploaded directly to your post. These should be square images, either JPG or PNG. I recommend size 150px x 150px.
+* 1 free space tile. This should be the same size as the bingo cards.
 * 1 bingo header image, width 650px
 * 3 winner images. Recommended size 500px x 300px
 
@@ -35,7 +37,7 @@ To use the demo, upload the images in `/demo/bingo-cards` directly to your WordP
 1. Create a post and add the two shortcodes `[bingocard]` `[bingo_gallery]`
    + If using the Gutenberg editor, you must use a **Shortcode** block for each shortcode.
    + If using the Classic editor, add the two shortcodes with a line break in between them.
-1. Upload at least 24 bingo card images for Bingo directly to your post. Images should be square.
+1. Upload at least 24 bingo tiles directly to your post. Images should be square.
    + If using the Gutenberg editor, add an image block and click the **Media Library** button.
    + If using the Classic editor, click the **Add Media** button above the WYSIWYG.
    + DO NOT upload the featured image, free space image, or winner images directly to the post. Any photo uploaded to the post will be in rotation on the bingo card.
