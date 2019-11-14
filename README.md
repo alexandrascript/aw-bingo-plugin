@@ -1,12 +1,17 @@
 # Bingo Card Plugin
 
+![GitHub repo size](https://img.shields.io/github/repo-size/heyawhite/tech-writing-tools)
+![GitHub last commit](https://img.shields.io/github/last-commit/heyawhite/tech-writing-tools)
+![GitHub stars](https://img.shields.io/github/stars/heyawhite/tech-writing-tools?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/heyawhite?style=social)
+
 * Version 1.1
 * This plugin is for implementing bingo cards on WordPress posts and custom post types.
 + Demo images are available in the folder `/demo`.
 
-The Bingo Card Plugin is supported on WordPress 4.8 and above. The plugin is powered by vanilla JavaScript and CSS, no additional libraries required.
+The Bingo Card Plugin generates randomized bingo cards for WordPress posts. It is supported on WordPress 4.0 and above. The plugin is powered by vanilla JavaScript and CSS, no additional libraries required.
 
-**Warning**: installing WordPress's <a href="https://jetpack.com">Jetpack plugin</a> has been known to cause errors. This plugin may have conflicts and not work as expected. 
+**WARNING**: installing WordPress's <a href="https://jetpack.com">Jetpack plugin</a> has been known to cause errors. This plugin may have conflicts and not work as expected. 
 
 **DISCLAIMER**: I have updated this code as recently as September 2019, but it may not be perfect. If there are problems or pitfalls, please do report them in a GitHub issue. However, I am not responsible for any problems this causes as it relates to your WordPress installation or server.
 
@@ -15,7 +20,6 @@ The Bingo Card Plugin is supported on WordPress 4.8 and above. The plugin is pow
 Alexandra White is an occasional WordPress developer, who built this plugin while working at WNET.
 
 [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/heyawhite/)
-
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A244AFZ)
 
