@@ -1,8 +1,8 @@
 # Bingo Card Plugin
 
-![GitHub repo size](https://img.shields.io/github/repo-size/heyawhite/tech-writing-tools)
-![GitHub last commit](https://img.shields.io/github/last-commit/heyawhite/tech-writing-tools)
-![GitHub stars](https://img.shields.io/github/stars/heyawhite/tech-writing-tools?style=social)
+![GitHub repo size](https://img.shields.io/github/repo-size/heyawhite/aw-bingo-plugin)
+![GitHub last commit](https://img.shields.io/github/last-commit/heyawhite/aw-bingo-plugin)
+![GitHub stars](https://img.shields.io/github/stars/heyawhite/aw-bingo-plugin?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/heyawhite?style=social)
 
 * Version 1.1
